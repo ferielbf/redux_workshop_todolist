@@ -17,7 +17,7 @@ function MainPage() {
      <Form className="d-flex">
             <Form.Control
               type="text"
-              placeholder="Type Here"
+              placeholder="Type Here..."
               className="me-2"
               aria-label="Enter"
              onChange= {e=> setValue(e.target.value)}

@@ -1,6 +1,6 @@
 import { ADD } from "./ActionType";
 import { DELETE } from "./ActionType";
-
+import { CHECK } from "./ActionType";
 const init = {
     toDoList:[]
 }
@@ -17,6 +17,16 @@ const myReducer = (state = init , action) =>{
              toDoList: state.toDoList.filter(toDoList => toDoList.id !== action.payload),
             
               }
+              case CHECK:return{
+                ...state,
+                  toDoList: state.toDoList.map(el =>{
+                        if(el.cnp == action.payload.c){
+                            return action.payload
+                        } else{
+                            return el
+                        }
+                  })
+                   }
         }
     }  
 

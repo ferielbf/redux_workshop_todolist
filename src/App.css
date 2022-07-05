@@ -1,0 +1,24 @@
+
+
+  h1{
+    color: blue;
+    
+  }
+  html{
+    background-image:  url('https://www.webmarketing-com.com/wp-content/uploads/2022/05/to-do-list-productif-e1635864001335.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.App{
+    background-image:  url('https://www.webmarketing-com.com/wp-content/uploads/2022/05/to-do-list-productif-e1635864001335.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;}
+
+  .me-2 {
+
+    width: 50%;
+    margin: 0 auto;
+}
